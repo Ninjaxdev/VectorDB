@@ -1,0 +1,63 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables / local configuration
+.env
+.env.*
+!.env.example
+*.local
+
+# Logs and runtime output
+*.log
+logs/
+*.pid
+
+# Editors and IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local databases, indexes, and generated data
+*.db
+*.sqlite
+*.sqlite3
+*.pkl
+*.pickle
+*.npy
+*.npz
+*.index
+data/
+storage/
+artifacts/
+
+# Local model/cache directories (Ollama models are normally stored outside this project)
+.cache/
+models/
+
+# Build / packaging output
+build/
+dist/
+*.egg-info/
+
+# Optional local test output
+test-results/
